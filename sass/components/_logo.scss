@@ -1,0 +1,33 @@
+.logo {
+  color: #212121;
+  font-family: raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  animation-duration: 2000ms;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+
+  &__icon {
+    color: var(--accent-color);
+  }
+}
+
+.navigation__logo-padding {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.logo__icon-ft {
+  color: var(--text-title-white);
+}
+.footer__logo {
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}

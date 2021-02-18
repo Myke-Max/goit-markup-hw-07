@@ -1,0 +1,19 @@
+.container-centering {
+  width: 1200px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  &__hero {
+    max-width: 696px;
+  }
+}
+
+.page-header__container-centering {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  align-items: center;
+}

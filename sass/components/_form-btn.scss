@@ -1,0 +1,50 @@
+.modal__close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  background-color: var(--text-title-white);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: var(--timing250ms) var(--timing-function);
+}
+.modal__icon-close {
+  transition: var(--timing250ms) var(--timing-function);
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
+}
+
+.form__send-btn {
+  width: 200px;
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  letter-spacing: 0.06em;
+
+  color: var(--text-title-white);
+  background-color: var(--accent-color);
+  padding: 10px 55px;
+
+  border-radius: 4px;
+  cursor: pointer;
+  border: transparent;
+  transition: box-shadow var(--timing-function) var(--timing250ms);
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+}

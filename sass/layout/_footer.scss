@@ -1,0 +1,20 @@
+.footer {
+  background-color: var(--background-color-blue);
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &__align {
+    display: flex;
+    align-items: baseline;
+  }
+
+  &__range {
+    margin-right: 70px;
+  }
+
+  &__container-align {
+    text-align: left;
+
+    margin-bottom: 0px;
+  }
+}

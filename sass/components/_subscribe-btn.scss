@@ -1,0 +1,56 @@
+.subscribe {
+  display: flex;
+  flex-direction: column;
+
+  &__btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.878;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    letter-spacing: 0.06em;
+
+    color: var(--text-title-white);
+    background-color: var(--accent-color);
+
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 10px 28px;
+
+    cursor: pointer;
+    transition: box-shadow var(--timing250ms) var(--timing-function);
+    width: 200px;
+  }
+
+  &__btn:hover,
+  &__btn:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  &__icon-send {
+    fill: currentColor;
+    margin-left: 10px;
+  }
+
+  &__form {
+    display: flex;
+  }
+
+  &__input {
+    background-color: transparent;
+    min-width: 358px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    margin-right: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    cursor: pointer;
+    color: var(--text-title-white);
+    outline: none;
+  }
+}

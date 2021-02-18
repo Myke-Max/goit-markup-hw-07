@@ -1,0 +1,22 @@
+:root {
+  --general-color-text: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --contacts-color: rgba(255, 255, 255, 0.6);
+  --background-color-blue: #2f303a;
+  --text-title-white: #ffffff;
+  --bgc-button: #e5e5e5;
+  --bgc-team: #f5f4fa;
+  --social-icon: #afb1b8;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --timing250ms: 250ms;
+  --bgc-portfolio-text: rgba(33, 150, 243, 0.9);
+  --border-modal: 1px solid rgba(33, 33, 33, 0.2);
+  --overlay-gradient: linear-gradient(
+    to right,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  );
+  --hero-btn-shadow: box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  --product-work__container-bgc:rgba(47, 48, 58, 0.8);
+}

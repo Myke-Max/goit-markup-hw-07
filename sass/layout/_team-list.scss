@@ -1,0 +1,43 @@
+.team-section {
+  background-color: var(--bgc-team);
+}
+
+.team-list {
+  display: flex;
+
+  &__img-range {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  &__packing-studio {
+    padding: 30px 32px;
+  }
+  &__member {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  &__function {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+
+    margin-top: 0px;
+    margin-bottom: 16px;
+  }
+
+  &__item {
+    background-color: #fff;
+    width: 270px;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+}

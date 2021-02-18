@@ -1,0 +1,33 @@
+.team-list__item:not(:last-child),
+.product-work__item :not(:last-child),
+.qualities-list__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.qualities-list {
+  display: flex;
+
+  &__item {
+    text-align: left;
+
+    width: 270px;
+  }
+  &__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bgc-team);
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    text-align: center;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}

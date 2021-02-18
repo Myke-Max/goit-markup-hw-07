@@ -1,0 +1,29 @@
+.product-work__work-list {
+  display: flex;
+
+  &__item {
+    position: relative;
+  }
+
+  &__container {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    padding: 27px 82px;
+    background: var(--product-work__container-bgc);
+    width: 100%;
+  }
+
+  &__info {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    color: var(--text-title-white);
+  }
+}

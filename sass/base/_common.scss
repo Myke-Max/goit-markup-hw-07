@@ -1,0 +1,49 @@
+.list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+link {
+  text-decoration: none;
+}
+
+.qualities,
+.product-work,
+.team-section,
+.portfolio-section,
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/* Body */
+body {
+  background-color: #ffffff;
+  color: var(--general-color-text);
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+button {
+  font-family: inherit;
+}
