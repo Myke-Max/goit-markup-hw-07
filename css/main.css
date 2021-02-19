@@ -108,11 +108,11 @@ button {
 
 /* COMPONENTS */
 .hero__title {
-  color: var(--text-title-white);
-  font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  font-weight: 900;
+  line-height: 1.364;
   letter-spacing: 0.06em;
+  color: var(--text-title-white);
   text-transform: uppercase;
   margin-top: 0px;
   margin-bottom: 30px;
@@ -122,9 +122,10 @@ button {
 .team-section__title,
 .clients__title {
   color: var(--title-text-color);
-  font-weight: 700;
   font-size: 36px;
-  line-height: 1.16;
+  font-weight: 700;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
   text-align: center;
   margin-top: 0px;
   margin-bottom: 50px;
@@ -133,9 +134,10 @@ button {
 .social-ft__title,
 .subscribe__title {
   display: inline-block;
-  font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  font-weight: 700;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--text-title-white);
   margin-bottom: 20px;
@@ -145,7 +147,9 @@ button {
   display: block;
   width: 100%;
   font-size: 20px;
+  font-weight: 700;
   line-height: 1.15;
+  letter-spacing: 0.03em;
   text-align: center;
   color: var(--title-text-color);
   margin-bottom: 30px;
@@ -153,8 +157,8 @@ button {
 
 .portfolio__card-title {
   color: var(--title-text-color);
-  font-weight: 700;
   font-size: 18px;
+  font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
   margin-bottom: 4px;
@@ -162,11 +166,12 @@ button {
 }
 
 .qualities-list__title {
-  color: var(--title-text-color);
-  font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  font-weight: 700;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--title-text-color);
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -175,9 +180,10 @@ button {
   color: #212121;
   font-family: raleway, sans-serif;
   font-style: normal;
-  font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
+  font-weight: 700;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
   text-decoration: none;
   animation-duration: 2000ms;
 }
@@ -277,9 +283,10 @@ button {
 }
 
 .contacts-list {
-  font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  font-weight: 500;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
   letter-spacing: 0.02em;
   display: flex;
   margin-left: auto;
@@ -322,9 +329,10 @@ button {
 .contacts-ft__address {
   color: var(--text-title-white);
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
+  font-weight: 400;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
   margin-bottom: 9px;
   margin-top: 0px;
 }
@@ -332,9 +340,10 @@ button {
 .contacts-ft__info {
   color: var(--general-color-text);
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
+  font-weight: 400;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 
@@ -371,9 +380,10 @@ button {
 .form__send-btn {
   width: 200px;
   display: block;
-  font-weight: 700;
   font-size: 16px;
-  line-height: 1.87;
+  font-weight: 700;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
   display: flex;
   justify-content: center;
   align-self: center;
@@ -397,13 +407,13 @@ button {
 }
 
 .subscribe__btn {
-  font-weight: 700;
   font-size: 16px;
-  line-height: 1.878;
+  font-weight: 700;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
   display: flex;
   justify-content: center;
   align-items: center;
-  letter-spacing: 0.06em;
   color: var(--text-title-white);
   background-color: var(--accent-color);
   border: 1px solid transparent;
@@ -457,9 +467,10 @@ button {
 .filter-list__btn {
   color: var(--title-text-color);
   background-color: var(--bgc-team);
-  font-weight: 500;
   font-size: 16px;
-  line-height: 1.62;
+  font-weight: 500;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
   display: inline-block;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -509,9 +520,9 @@ button {
   display: block;
   position: relative;
   color: var(--title-text-color);
-  font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  font-weight: 500;
+  line-height: 1.143;
   letter-spacing: 0.02em;
   text-decoration: none;
   padding-top: 32px;
@@ -546,9 +557,9 @@ button {
 .site-nav__link--current {
   color: var(--accent-color);
   text-decoration: none;
-  font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  font-weight: 500;
+  line-height: 1.143;
   letter-spacing: 0.02em;
 }
 
@@ -579,9 +590,10 @@ button {
 }
 
 .qualities-list__text {
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
+  font-weight: 400;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -604,9 +616,10 @@ button {
 }
 
 .product-work__info {
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.14;
+  font-weight: 400;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
   text-align: center;
   text-transform: uppercase;
   margin-top: 0px;
@@ -632,10 +645,11 @@ button {
 }
 
 .team-list__member {
-  color: var(--title-text-color);
-  font-weight: 500;
   font-size: 16px;
-  line-height: 1.19;
+  font-weight: 500;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
   margin-top: 0px;
   margin-bottom: 10px;
 }
@@ -857,9 +871,9 @@ button {
   transform: translateY(-50%);
   display: block;
   width: 100%;
-  font-weight: 400;
   font-size: 12px;
-  line-height: 1.16;
+  font-weight: 400;
+  line-height: 1.167;
   letter-spacing: 0.01em;
   cursor: pointer;
   transition: var(--timing250ms) var(--timing-function);
@@ -897,9 +911,9 @@ button {
 
 .form__comments-title {
   display: inline-block;
-  font-weight: 400;
   font-size: 12px;
-  line-height: 1.16;
+  font-weight: 400;
+  line-height: 1.167;
   letter-spacing: 0.01em;
 }
 
@@ -921,9 +935,9 @@ button {
 }
 
 .form__comments::placeholder {
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.14;
+  font-weight: 400;
+  line-height: 1.143;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
@@ -939,9 +953,10 @@ button {
 
 .form__terms {
   color: var(--accent-color);
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
+  font-weight: 400;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
 }
 
 .form__policy::before {

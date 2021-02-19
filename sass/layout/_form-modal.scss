@@ -23,10 +23,8 @@
     transform: translateY(-50%);
     display: block;
     width: 100%;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: 0.01em;
+    @include font($fs: 12px, $fw: 400, $lh: 14px, $ls: 0.01em);
+
     cursor: pointer;
     transition: var(--timing250ms) var(--timing-function);
   }
@@ -64,11 +62,7 @@
 
   &__comments-title {
     display: inline-block;
-
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: 0.01em;
+    @include font($fs: 12px, $fw: 400, $lh: 14px, $ls: 0.01em);
   }
 
   &__comments {
@@ -90,11 +84,7 @@
   }
 
   &__comments::placeholder {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.01em;
-
+    @include font($fw: 400, $ls: 0.01em);
     color: rgba(117, 117, 117, 0.5);
   }
 
@@ -109,9 +99,10 @@
 
   &__terms {
     color: var(--accent-color);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
+    @include font($fw: 400, $lh: 24px);
+    // font-weight: 400;
+    // font-size: 14px;
+    // line-height: 24;
   }
 
   &__policy::before {

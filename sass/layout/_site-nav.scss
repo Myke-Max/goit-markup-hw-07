@@ -13,13 +13,8 @@
     display: block;
     position: relative;
     color: var(--title-text-color);
-
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+    @include font($fw: 500, $ls: 0.02em);
     text-decoration: none;
-
     padding-top: 32px;
     padding-bottom: 32px;
 
@@ -53,10 +48,6 @@
   &__link--current {
     color: var(--accent-color);
     text-decoration: none;
-
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+    @include font($fw: 500, $ls: 0.02em);
   }
 }

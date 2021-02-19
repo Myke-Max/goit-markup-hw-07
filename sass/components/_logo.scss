@@ -2,9 +2,7 @@
   color: #212121;
   font-family: raleway, sans-serif;
   font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  @include font($fs: 26px, $lh: 31px);
   text-decoration: none;
   animation-duration: 2000ms;
 
