@@ -161,7 +161,7 @@ button {
   margin-top: 0;
 }
 
-.qualities__title {
+.qualities-list__title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -586,15 +586,15 @@ button {
   margin-bottom: 0;
 }
 
-.product-work__work-list {
+.product-work__list {
   display: flex;
 }
 
-.product-work__work-list__item {
+.product-work__item {
   position: relative;
 }
 
-.product-work__work-list__container {
+.product-work__container {
   position: absolute;
   left: 0px;
   bottom: 0px;
@@ -603,7 +603,7 @@ button {
   width: 100%;
 }
 
-.product-work__work-list__info {
+.product-work__info {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;

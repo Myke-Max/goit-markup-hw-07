@@ -62,7 +62,7 @@
   margin-top: 0;
 }
 
-.qualities__title {
+.qualities-list__title {
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -73,3 +73,4 @@
   margin-top: 30px;
   margin-bottom: 10px;
 }
+// @mixin font( $fs:14px, $fw:700, $lh:16px, $ls:0.03em, $tt)
