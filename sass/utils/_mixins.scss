@@ -36,3 +36,9 @@
   line-height: decimal-round($lh/$fs, 3);
   letter-spacing: $ls;
 }
+
+@mixin flex($df: flex, $jc: center, $ai: center) {
+  display: $df;
+  justify-content: $jc;
+  align-items: $ai;
+}

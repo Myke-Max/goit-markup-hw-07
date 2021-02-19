@@ -13,9 +13,7 @@
     width: 270px;
   }
   &__icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex;
 
     background-color: var(--bgc-team);
     border-radius: 4px;

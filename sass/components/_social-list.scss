@@ -11,9 +11,7 @@
     margin-right: 10px;
   }
   &__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex;
     width: 100%;
     height: 100%;
     color: var(--social-icon);

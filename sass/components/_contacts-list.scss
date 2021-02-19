@@ -1,10 +1,8 @@
 .contacts-list {
   @include font($fs: 14px, $fw: 500, $lh: 16px, $ls: 0.02em);
-  letter-spacing: 0.02em;
 
   display: flex;
   margin-left: auto;
-  align-items: center;
 
   &__item:not(:last-child) {
     margin-right: 50px;

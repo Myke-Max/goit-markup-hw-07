@@ -287,10 +287,8 @@ button {
   font-weight: 500;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  letter-spacing: 0.02em;
   display: flex;
   margin-left: auto;
-  align-items: center;
 }
 
 .contacts-list__item:not(:last-child) {
@@ -507,6 +505,7 @@ button {
 
 .navigation {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -671,7 +670,6 @@ button {
 
 .clients-list {
   display: flex;
-  justify-content: center;
 }
 
 .clients-list__item {

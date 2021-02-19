@@ -1,7 +1,5 @@
 .modal__close {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex;
   position: absolute;
   top: 6px;
   right: 8px;

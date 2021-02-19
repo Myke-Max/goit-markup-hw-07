@@ -1,6 +1,5 @@
 .clients-list {
   display: flex;
-  justify-content: center;
 
   &__item {
     width: 170px;
@@ -12,9 +11,7 @@
   }
 
   &__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex;
 
     color: var(--social-icon);
     width: 100%;

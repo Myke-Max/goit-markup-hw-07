@@ -5,9 +5,7 @@
   &__btn {
     @include font($fs: 16px, $lh: 30px, $ls: 0.06em);
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex;
 
     color: var(--text-title-white);
     background-color: var(--accent-color);
