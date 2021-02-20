@@ -40,7 +40,7 @@ link {
 body {
   background-color: #ffffff;
   color: var(--general-color-text);
-  font-family: roboto, sans-serif;
+  font-family: var(--main-font-roboto);
   letter-spacing: 0.03em;
 }
 

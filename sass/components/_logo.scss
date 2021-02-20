@@ -1,6 +1,6 @@
 .logo {
   color: #212121;
-  font-family: raleway, sans-serif;
+  font-family: var(--logo-font-releway);
   font-style: normal;
   @include font($fs: 26px, $lh: 31px);
   text-decoration: none;
