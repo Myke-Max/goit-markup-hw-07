@@ -7,29 +7,29 @@
     margin-right: 30px;
     margin-bottom: 30px;
     border: 1px solid #eeeeee;
-  }
 
-  &__card:nth-child(3n) {
-    margin-right: 0px;
-  }
+    &:nth-child(3n) {
+      margin-right: 0px;
+    }
 
-  &__card:nth-last-child(-n + 3) {
-    margin-bottom: 0px;
+    &:nth-last-child(-n + 3) {
+      margin-bottom: 0px;
+    }
   }
 
   &__link {
     display: block;
     text-decoration: none;
-  }
 
-  &__link:hover,
-  &__link:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-      1px 4px 6px rgba(0, 0, 0, 0.16);
-  }
+    &:hover,
+    &:focus {
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
 
-  &__link:visited {
-    color: var(--general-color-text);
+    &:visited {
+      color: var(--general-color-text);
+    }
   }
 
   &__container {

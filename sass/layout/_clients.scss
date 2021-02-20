@@ -4,10 +4,10 @@
   &__item {
     width: 170px;
     height: 90px;
-  }
 
-  &__item:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
 
   &__link {
@@ -21,13 +21,13 @@
 
     transition: color var(--timing-function) var(--timing250ms),
       border var(--timing-function) var(--timing250ms);
-  }
 
-  &__link:hover,
-  &__link:focus {
-    color: var(--accent-color);
-    border: 1px solid var(--accent-color);
-    border-radius: 4px;
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+      border: 1px solid var(--accent-color);
+      border-radius: 4px;
+    }
   }
 
   &__icon {

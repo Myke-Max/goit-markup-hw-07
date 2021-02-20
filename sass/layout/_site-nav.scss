@@ -18,35 +18,36 @@
     padding-bottom: 32px;
 
     transition: color var(--timing-function) var(--timing250ms);
+
+    &--current::after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 4px;
+      background-color: var(--accent-color);
+      position: absolute;
+      left: 0;
+      bottom: 0;
+
+      transition: var(--timing250ms) var(--timing-function);
+    }
+
+    &--current:hover::after {
+      transform: scaleX(1.5);
+    }
+
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
+    &--current {
+      color: var(--accent-color);
+      text-decoration: none;
+      @include font($fw: 500, $ls: 0.02em);
+    }
   }
 
-  &__link--current::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 4px;
-    background-color: var(--accent-color);
-    position: absolute;
-    left: 0;
-    bottom: 0;
-
-    transition: var(--timing250ms) var(--timing-function);
-  }
-
-  &__link--current:hover::after {
-    transform: scaleX(1.5);
-  }
   &__item:not(:last-child) {
     margin-right: 50px;
-  }
-
-  &__link:hover,
-  &__link:focus {
-    color: var(--accent-color);
-  }
-  &__link--current {
-    color: var(--accent-color);
-    text-decoration: none;
-    @include font($fw: 500, $ls: 0.02em);
   }
 }

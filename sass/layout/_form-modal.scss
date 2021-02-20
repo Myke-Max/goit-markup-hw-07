@@ -6,14 +6,13 @@
     position: relative;
     text-align: left;
     margin-bottom: 28px;
-  }
+    &:focus-within .form__icon-name {
+      fill: var(--accent-color);
+    }
 
-  &__field:focus-within .form__icon-name {
-    fill: var(--accent-color);
-  }
-
-  &__field:focus-within .form__label {
-    transform: translateY(-40px) translateX(-40px);
+    &:focus-within .form__label {
+      transform: translateY(-40px) translateX(-40px);
+    }
   }
 
   &__label {
@@ -49,15 +48,15 @@
     font-family: inherit;
     cursor: pointer;
     transition: border var(--timing250ms) var(--timing-function);
-  }
 
-  &__input:focus {
-    border: 1px solid #2196f3;
-    outline: none;
-  }
+    &:focus {
+      border: 1px solid #2196f3;
+      outline: none;
+    }
 
-  &__input:not(:placeholder-shown) + &__label {
-    transform: translateY(-40px) translateX(-40px);
+    &:not(:placeholder-shown) + &__label {
+      transform: translateY(-40px) translateX(-40px);
+    }
   }
 
   &__comments-title {
@@ -81,20 +80,32 @@
 
     cursor: pointer;
     transition: border var(--timing250ms) var(--timing-function);
-  }
 
-  &__comments::placeholder {
-    @include font($fw: 400, $ls: 0.01em);
-    color: rgba(117, 117, 117, 0.5);
-  }
+    &::placeholder {
+      @include font($fw: 400, $ls: 0.01em);
+      color: rgba(117, 117, 117, 0.5);
+    }
 
-  &__comments:focus {
-    border: 1px solid #2196f3;
-    outline: none;
+    &:focus {
+      border: 1px solid #2196f3;
+      outline: none;
+    }
   }
 
   &__policy {
     margin-bottom: 30px;
+
+    &::before {
+      display: inline-block;
+      content: "";
+      width: 16px;
+      height: 15px;
+      border: 2px solid var(--title-text-color);
+      border-radius: 2px;
+      margin-right: 8px;
+      cursor: pointer;
+      transition: var(--timing250ms) var(--timing-function);
+    }
   }
 
   &__terms {
@@ -103,18 +114,6 @@
     // font-weight: 400;
     // font-size: 14px;
     // line-height: 24;
-  }
-
-  &__policy::before {
-    display: inline-block;
-    content: "";
-    width: 16px;
-    height: 15px;
-    border: 2px solid var(--title-text-color);
-    border-radius: 2px;
-    margin-right: 8px;
-    cursor: pointer;
-    transition: var(--timing250ms) var(--timing-function);
   }
 
   &__checkbox:checked + &__policy::before {

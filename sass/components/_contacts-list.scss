@@ -18,11 +18,11 @@
     padding-bottom: 25px;
 
     transition: color var(--timing-function) var(--timing250ms);
-  }
 
-  &__link:hover,
-  &__link:focus {
-    color: var(--accent-color);
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
   }
 
   &__icon-tel,
