@@ -620,7 +620,7 @@ button {
 }
 
 .team-list__item:not(:last-child),
-.product-work__item :not(:last-child),
+.product-work__item:not(:last-child),
 .qualities-list__item:not(:last-child) {
   margin-right: 30px;
 }
